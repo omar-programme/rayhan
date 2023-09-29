@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Noto+Kufi+Arabic:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Marhey:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Marhey:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Marhey:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+
+
+
+:root{
+    --color2: #fff;
+    ---color2: #000;
+    --color3: rgb(199, 165, 127);
+    --color-4: rgb(244 239 236);
+    --color-4-2: rgb(231 219 206);
+    --color-5:rgb(48 73 93);
+    --color-6: rgb(40 40 37);
+    --font-f: 'Noto Kufi Arabic', sans-serif;
+    --font-f2: 'Marhey', cursive;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-f);
+    user-select: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-5);
+}
+
+  /* Customize the scrollbar thumb */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+html{
+    font-family: var(--font-f);
+    background-color: var(--color-6);
+}
+
+.header{
+    float: right;
+    display: flex;
+    background-color: transparent;
+}
+
+.menu, .btn .text{
+    background-color: transparent;
+    color: var(--color2);
+    border: 2px solid var(--color3);
+    border-radius: 55px;
+    margin-top: 25px;
+    margin-right: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 35px;
+    padding-left: 35px;
+    transition: 0.5s;
+}
+
+.menu:hover, .btn .text:hover{
+    filter: blur(1px);
+}
+
+.menu i{
+    padding-left: 4px;
+    font-size: 19px ;
+    transition: 0.5s;
+}
+
+.menu .text, .cont .text, .btn .text{
+    color: var(--color2);
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cont .menu{
+    margin-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: var(--color3);
+    transition: 0.5s;
+}
+
+.overlayy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.overlayy.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: var(--color-4-2);
+    padding: 20px;
+    width: 1000px;
+    height: 100vh;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.overlayy .modal .name1, .overlayy .modal .name2{
+    font-family: var(--font-f2);
+    color: var(--color3);
+    font-size: 23px;
+    font-weight: 300;
+    padding-left: 50px;
+    transition: 0.5s;
+}
+
+.overlayy .modal .name1:hover, .overlayy .modal .name2:hover{
+    color: var(--color-5);
+}
+
+.overlayy.active .modal {
+    transform: scale(1);
+}
+
+.overlayy .modal .colum {
+    direction: rtl;
+    float: right;
+    text-align: right;
+    padding-top: 200px;
+    line-height: 100px;
+    font-size: 43px;
+    font-family: var(--font-f);
+    font-weight: 500;
+}
+
+.overlayy li{
+    list-style: none;
+}
+
+.overlayy li a{
+    color: var(--color-5);
+    transition: 0.5s;
+}
+
+.overlayy ul li .contact{
+    color: var(--color3);
+}
+
+.overlayy ul li .contact:hover{
+    color: var(--color-5);
+    transition: 0.5s;
+}
+
+.overlayy li a:hover{
+    color: var(--color3);
+}
+
+.close-btnn {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 40px;
+    color: var(--color-5);
+    cursor: pointer;
+}
+
+
+
+.cont .menu:hover{
+    background-color: transparent;
+    color: var(---color1);
+    border: 2px solid var(--color3);
+}
+
+
+.link{
+    float: right;
+    color: var(--color2);
+    font-weight: 200;
+    font-size: 16px;
+    padding-right: 30px;
+    padding-top: 40px;
+    transition: 0.5s;
+    cursor: default;
+    user-select: none;
+}
+
+.link a{
+    transition: 0.5s;
+    color: var(--color2);
+    font-weight: 200;
+    font-size: 16px; 
+    transition: 0.5s;
+    cursor: default;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: var(--color3);
+}
+
+.website .bck{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.website .bck img, .bc-color{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.322);
+
+}
+
+.bc-color{
+    background: transparent;
+    height: 270px;
+}
+
+.logo{
+    margin-top: -100px;
+    margin-right: 450px;
+}
+
+.logo img{
+    width: 400px;
+    height: 370px;
+}
+
+.phone .content{
+    display: flex;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+
+.phone .content .icon{
+    color: var(--color2);
+    padding-left: 15px;
+}
+
+.phone .content a{
+    color: var(--color2);
+    font-size: 14px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.phone .content .number a:hover{
+    color: var(--color3);
+}
+
+
+.lng {
+    color: var(--color2);
+    border: 2px solid var(--color3);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-right: 80px;
+    padding-top: 3.2px;
+    transition: 0.5s;
+}
+
+.lng:hover{
+    color: var(--color2);
+    border: 2px solid transparent;
+    background-color: var(--color3);
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact .phone-number a{
+    color: var(--color3);
+    font-weight: 200;
+    font-size: 124px;
+    font-family: var(--font-f2);
+}
+
+
+.contact .container {
+    margin-top: 50px;
+}
+
+.contact .container .button {
+    color: var(--color3);
+    background-color: var(--color-5);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 55px;
+    transition: 0.5s;
+}
+
+.contact .container .button:hover{
+    color: var(--color2);
+    background-color: transparent;
+    border: 2px solid var(--color3);
+}
+
+.contact .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.contact .overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.contact .overlay .modal {
+    background-color: var(--color-4);
+    padding: 20px;
+    width: 1000px;
+    height: 90vh;
+    border-radius: 5px;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.overlay.active .modal {
+    transform: scale(1);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 40px;
+    color: var(--color-5);
+    cursor: pointer;
+}
+
+.contact .overlay h2{
+    color: var(--color-5);
+    font-size: 6rem;
+    font-weight: 200;
+    font-family: var(--font-f2);
+    line-height: 1px;
+    padding-top: 60px;
+}
+
+.contact .inputes{
+    margin-top: 150px;
+}
+
+.contact .inputes .name input, .contact .inputes .number input, .contact .inputes .message input{
+    color: var(--color-5);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border-bottom: 1px solid var(--color3);
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    text-align: center;
+    width: 700px;
+}
+
+.contact .inputes .number input, .contact .inputes .message input, .contact .inputes .name input{
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.contact .inputes .message input{
+    border: 1px solid var(--color3);
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.contact .inputes input::placeholder{
+    text-align: right;
+    color: var(--color3);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contact .btn{
+    margin-top: 80px;
+}
+
+.contact .btn .butn{
+    color: var(--color3);
+    background-color: var(--color-5);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 35px;
+    transition: 0.5s;
+}
+
+.contact .btn .butn:hover{
+    color: var(--color-5);
+    background-color: transparent;
+    border: 2px solid var(--color3);
+}
+
+.contact .email a{
+    color: var(--color2);
+    text-decoration: none;
+    font-family: var(--font-f2);
+    font-weight: 300;
+    font-size: 30px;
+}
+
